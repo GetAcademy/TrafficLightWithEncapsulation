@@ -1,0 +1,6 @@
+Trafikklys
+1: skrive mer objektorientert
+2: innkapsling - mulig å bytte implementasjon
+3: properties
+4: andre eksempler clicker fra sist + statistikk
+5: generelt om objektorientert tenkning
