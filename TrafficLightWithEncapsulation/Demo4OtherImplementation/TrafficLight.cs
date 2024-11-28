@@ -4,13 +4,13 @@
     {
         private int _phase;
 
-        //public void SetPhase(int phase)
-        //{
-        //    if (phase >= 0 && phase <= 3)
-        //    {
-        //        _phase = phase;
-        //    }
-        //}
+        public void SetPhase(int phase)
+        {
+            if (phase >= 0 && phase <= 3)
+            {
+                _phase = phase;
+            }
+        }
 
         public void Show()
         {

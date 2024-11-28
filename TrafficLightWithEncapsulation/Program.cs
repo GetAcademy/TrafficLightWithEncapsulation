@@ -1,3 +1,5 @@
-﻿using TrafficLightWithEncapsulation.Demo4OtherImplementation;
+﻿using TrafficLightWithEncapsulation.Demo6Stats;
+using TrafficLightWithEncapsulation.Demo7Clicker;
 
-Demo4.Run();
+Demo7.Run();
+
