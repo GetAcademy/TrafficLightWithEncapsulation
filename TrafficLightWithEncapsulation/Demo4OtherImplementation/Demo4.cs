@@ -1,10 +1,11 @@
-﻿namespace TrafficLightWithEncapsulation.Demo3WithEncapsulation
+﻿namespace TrafficLightWithEncapsulation.Demo4OtherImplementation
 {
-    internal class TrafficLightDemo3
+    internal class Demo4
     {
         public static void Run()
         {
             var trafficLight = new TrafficLight();
+            //trafficLight.green = true;
             while (true)
             {
                 Console.Clear();

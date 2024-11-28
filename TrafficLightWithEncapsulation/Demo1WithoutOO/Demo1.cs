@@ -1,6 +1,6 @@
 ﻿namespace TrafficLightWithEncapsulation.Demo1WithoutOO
 {
-    internal class TrafficLightDemo1
+    internal class Demo1
     {
         public static void Run()
         {

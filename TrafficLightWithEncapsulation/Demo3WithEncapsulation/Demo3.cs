@@ -1,6 +1,6 @@
-﻿namespace TrafficLightWithEncapsulation.Demo2WithOO
+﻿namespace TrafficLightWithEncapsulation.Demo3WithEncapsulation
 {
-    internal class TrafficLightDemo2
+    internal class Demo3
     {
         public static void Run()
         {
@@ -11,6 +11,7 @@
                 trafficLight.Show();
                 Console.ReadKey(true);
                 trafficLight.GoToNextPhase();
+                //trafficLight._green = true;                
             }
         }
     }
