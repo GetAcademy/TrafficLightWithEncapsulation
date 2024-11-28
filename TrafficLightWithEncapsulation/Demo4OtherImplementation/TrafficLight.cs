@@ -2,42 +2,34 @@
 {
     internal class TrafficLight
     {
-        private bool _red;
-        private bool _yellow;
-        private bool _green;
+        private int _phase;
 
-        public TrafficLight()
-        {
-            _red = true;
-        }
+        //public void SetPhase(int phase)
+        //{
+        //    if (phase >= 0 && phase <= 3)
+        //    {
+        //        _phase = phase;
+        //    }
+        //}
 
         public void Show()
         {
-            TrafficLightConsole.Show(_red, _yellow, _green);
+            var red = _phase < 2;
+            var yellow = _phase is 1 or 3;
+            //var yellow = _phase % 2 == 1;
+            var green = _phase == 2;
+            TrafficLightConsole.Show(red, yellow, green);
         }
 
         public void GoToNextPhase()
         {
-            if (_red && !_yellow)
+            _phase++;
+            if (_phase == 4)
             {
-                _yellow = true;
+                _phase = 0;
             }
-            else if (_red)
-            {
-                _red = false;
-                _yellow = false;
-                _green = true;
-            }
-            else if (_green)
-            {
-                _green = false;
-                _yellow = true;
-            }
-            else if (_yellow)
-            {
-                _yellow = false;
-                _red = true;
-            }
+            //_phase = _phase < 3 ? _phase + 1 : 0;
+            //_phase = (_phase + 1) % 4;
         }
     }
 }

@@ -12,7 +12,7 @@
                 trafficLight.Show();
                 Console.ReadKey(true);
                 trafficLight.GoToNextPhase();
-                //trafficLight._green = true;                
+                //trafficLight._green = true;
             }
         }
     }
