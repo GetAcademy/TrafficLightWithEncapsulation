@@ -1,7 +1,11 @@
+Innkapsling
+
 Trafikklys
 1: repetisjon - skrive mer objektorientert
 2: kapsle inn 
 3: bytte implementasjon
 4: properties
+
+Annet
 5: andre eksempler clicker fra sist + statistikk
 6: generelt om objektorientert tenkning
