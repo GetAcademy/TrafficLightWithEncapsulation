@@ -2,7 +2,7 @@
 {
     internal class Clicker
     {
-        private int _points;
+        public int Points { get; private set; }
         private int _upgrades;
         private char _character;
 
@@ -14,21 +14,21 @@
 
         public void Show()
         {
-            Console.WriteLine($"Klikker {char.ToUpper(_character)}: Du har {_points} poeng. ({_character}=klikk, {char.ToUpper(_character)}=upgrade)");
+            Console.WriteLine($"Klikker {char.ToUpper(_character)}: Du har {Points} poeng. ({_character}=klikk, {char.ToUpper(_character)}=upgrade)");
         }
 
         public void HandleCommand(ConsoleKeyInfo cmdKey)
         {
             if (cmdKey.KeyChar == _character)
             {
-                _points += _upgrades;
+                Points += _upgrades;
             }
             else if (cmdKey.KeyChar == char.ToUpper(_character))
             {
-                if (_points >= 10)
+                if (Points >= 10)
                 {
                     _upgrades++;
-                    _points -= 10;
+                    Points -= 10;
                 }
             }
         }
