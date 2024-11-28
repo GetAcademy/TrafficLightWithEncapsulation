@@ -1,11 +1,12 @@
 Innkapsling
 
 Trafikklys
-1: repetisjon - skrive mer objektorientert
-2: kapsle inn 
-3: bytte implementasjon
-4: properties
+1: uten OO
+2: repetisjon - skrive mer objektorientert
+3: kapsle inn 
+4: bytte implementasjon
+5: properties
 
 Annet
-5: andre eksempler clicker fra sist + statistikk
-6: generelt om objektorientert tenkning
+6: andre eksempler clicker fra sist + statistikk
+7: generelt om objektorientert tenkning

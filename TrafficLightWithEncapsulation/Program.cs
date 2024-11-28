@@ -1,3 +1,4 @@
-﻿using TrafficLightWithEncapsulation.Demo1WithoutOO;
+﻿using TrafficLightWithEncapsulation.Demo2WithOO;
+using TrafficLightWithEncapsulation.Demo3WithEncapsulation;
 
-TrafficLightDemo1.Run();
+TrafficLightDemo3.Run();
