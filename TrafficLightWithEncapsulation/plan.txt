@@ -1,6 +1,7 @@
 Trafikklys
-1: skrive mer objektorientert
-2: innkapsling - mulig å bytte implementasjon
-3: properties
-4: andre eksempler clicker fra sist + statistikk
-5: generelt om objektorientert tenkning
+1: repetisjon - skrive mer objektorientert
+2: kapsle inn 
+3: bytte implementasjon
+4: properties
+5: andre eksempler clicker fra sist + statistikk
+6: generelt om objektorientert tenkning
